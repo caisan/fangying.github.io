@@ -1,9 +1,8 @@
-Title: Goodbyte kernelgo.org and hello kernel.love
-Date: 2023-1-18 23:00 
-Modified: 2023-1-18 23:00 
+Title: Goodbyte kernelgo.org
+Date: 2023-1-18 23:00
+Modified: 2023-1-18 23:00
 Tags: kernel.love
 Slug: kernel.love
-Status: published 
 Authors: Yori Fang 
 Summary: kernel.love
 
