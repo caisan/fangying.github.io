@@ -22,13 +22,13 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 GITHUB_URL = 'http://github.com/fangying/'
 LINKS = (('kernel', 'https://kernel.org/'),
-        ('qemu', 'https://qemu.org/'),
-        ('Jinja2', 'http://jinja.pocoo.org/'),
-        ('You can modify those links in your config file', '#'),)
+         ('qemu', 'https://qemu.org/'),
+         ('Jinja2', 'http://jinja.pocoo.org/'),
+         ('You can modify those links in your config file', '#'),)
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/fangying'),
-        ('Another social link', '#'),)
+          ('Another social link', '#'),)
 
 # SEO
 GOOGLE_ANALYTICS = 'UA-107392039-1'
@@ -59,13 +59,11 @@ PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = [
         'assets',
         'extract_toc',
-        'tipue_search',
         'neighbors',
         'render_math',
         'related_posts',
         'share_post',
-        'series',
-        "liquid_tags.include_code",
+        'series'
         ]
 
 # landing page about
