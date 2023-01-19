@@ -39,6 +39,19 @@ DEFAULT_PAGINATION = False
 USE_FOLDER_AS_CATEGORY = True
 DELETE_OUTPUT_DIRECTORY = False
 
+# markdown extensions
+md_extensions = [
+        "extra",
+        "toc",
+        "headerid",
+        "meta",
+        "sane_list",
+        "smarty",
+        "wikilinks",
+        "admonition",
+        "codehilite(pygments_style=emacs)"
+        ]
+
 # themes and plugins
 THEME = 'pelican-themes/elegant'
 
