@@ -15,3 +15,5 @@ Summary: kernel.love
 
 所以现在打算把这个站点前一到新的域名，[https://kernel.love](https://kernelgo.org)上。
 希望喜欢这个站点内容的小伙伴移步到这里，谢谢。
+
+[https://kernel.love](https://kernel.love)
