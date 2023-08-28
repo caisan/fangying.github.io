@@ -1,0 +1,31 @@
+name: Build and Delpoy
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+
+    - name: Pull submodules
+      run: git submodule update --init --recursive
+
+    - name: Build
+      run: make html
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./output
+        cname: kernelgo.org
